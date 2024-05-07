@@ -1,5 +1,5 @@
 pipeline {
-    agent Super noeud
+    agent { label 'Super noeud' }
 
     environment {
         IMAGE_NAME = 'maven-app'
